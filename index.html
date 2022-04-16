@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <title>Index</title>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="assets/hamburgers/dist/hamburgers.css">
+    <link rel="shortcut icon" href="assets/icon/interior-design.svg">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="container-flex">
+                <div class="text-index">
+                    <h1><a href="index.html">Livefloor</a></h1>
+                </div>
+                <ul class="list-nav list-media" id="show-menu">
+                    <li><a href="index.html" class="active nav-link">Home</a></li>
+                    <li><a href="./pages/about.html" class="nav-link ">About</a></li>
+                    <li><a href="./pages/services.html" class="nav-link">Service</a></li>
+                    <li><a href="./pages/gallery.html" class="nav-link">Gallery</a></li>
+                    <li class="dropwn-blog"><a href="" class="nav-link">Blog<span class="fa fa-angle-down"></span></a>
+                        <ul class="dropdown">
+                            <li><a href="" class="nav-link">Blog posts</a></li>
+                            <li><a href="" class="nav-link">Blog single</a></li>
+                            <li> <a href="" class="nav-link">Landing page</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="text-right">
+                <div class="btn-free">
+                    <a href="" class="btn">Get free estimate</a>
+                </div>
+                <div class="icon">
+                    <img src="assets/img/moon_icon.png" alt="" class="icon-img">
+                </div>
+                <div class="menu">
+                    <button class="hamburger js-hamburger hamburger--squeeze" type="button" onclick="onClickMenu()">
+                        <span class="hamburger-box">
+                            <span class="hamburger-inner"></span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="slider-banner banner-view slide">
+            <div class="container-info-banner">
+                <p>Home decoration</p>
+                <h5>Interior designs from the future.</h5>
+                <a href="#read" class="view">View Details <span class="fa fa-long-arrow-right ml-1"
+                        aria-hidden="true"></span></a>
+            </div>
+        </div>
+        <div class="slider-banner-2 banner-view slide">
+            <div class="container-info-banner">
+                <p>Home decoration</p>
+                <h5>Interiors that reflect your style.</h5>
+                <a href="#read" class="view">View Details <span class="fa fa-long-arrow-right ml-1"
+                        aria-hidden="true"></span></a>
+            </div>
+        </div>
+        <div class="slider-banner-3 banner-view slide">
+            <div class="container-info-banner">
+                <p>Home decoration</p>
+                <h5>Interior designs from the future.</h5>
+                <a href="#read" class="view">View Details <span class="fa fa-long-arrow-right ml-1"
+                        aria-hidden="true"></span></a>
+            </div>
+        </div>
+        <div class="slider-banner-4 banner-view slide">
+            <div class="container-info-banner">
+                <p>Home decoration</p>
+                <h5>Interiors that reflect your style.</h5>
+                <a href="#read" class="view">View Details <span class="fa fa-long-arrow-right ml-1"
+                        aria-hidden="true"></span></a>
+            </div>
+        </div>
+        <div class="nav-btn">
+            <button type="button" role="presentation" class="prev owl" onclick="hienThiSlideTruocDo()"> <i
+                    class="fa fa-angle-left" style="color: white;"></i></button>
+            <button type="button" role="presentation" class="next owl" onclick="hienThiSlideKeTiep()"> <i
+                    class="fa fa-angle-span aria-label=" Next" style="color: white;"> <span
+                        class="fa fa-angle-right"></span></span></button>
+        </div>
+    </section>
+
+    <section class="stausinfo">
+        <div class="container-flex">
+            <div class="row">
+                <div class="col staus-info">
+                    <div class="counter" data-target="730">730</div>
+                    <h4>Custom Products</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col staus-info">
+                    <div class="counter" data-target="680">680</div>
+                    <h4>Design Experts</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col staus-info">
+                    <div class="counter" data-target="812">812</div>
+                    <h4>Happy Customers</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col staus-info">
+                    <div class="counter" data-target="990">990</div>
+                    <h4>Awards</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" data-aos="fade-up">
+        <div class="container">
+            <div class="info-about" data-aos="fade-right">
+                <h6 class="sub-title">About Us</h6>
+                <h3 class="hny-title">One-stop shop for everything interiors</h3>
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur.</p>
+                <a href="#read" class="read td">Read more <span class="fa fa-arrow-right ml-1"
+                        aria-hidden="true"></span></a>
+            </div>
+            <div class="image" data-aos="fade-left">
+                <img src="./assets/img/ab.jpg" alt="About">
+            </div>
+            <div class="image" data-aos="fade-left">
+                <img src="./assets/img/ab1.jpg" alt="About">
+            </div>
+        </div>
+    </section>
+    <section class="process" data-aos="fade-right">
+        <div class="content-process">
+            <h6 class="sub-title">Process</h6>
+            <h3 class="hny-title">How It Works</h3>
+            <p style="font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="container-process">
+            <div class="row-process">
+                <img src="./assets/img/g1.jpg" alt="Process">
+                <div class="content-process">
+                    <a href="#" class="hnys-title td mt">1. Show Us Your Space</a>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur.</p>
+                </div>
+            </div>
+            <div class="row-process">
+                <img src="./assets/img/g2.jpg" alt="Process">
+                <div class="content-process">
+                    <a href="#" class="hnys-title td mt">2.Get Custom Design Plans</a>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur.</p>
+                </div>
+
+            </div>
+            <div class="row-process">
+                <img src="./assets/img/g3.jpg" alt="Process">
+                <div class="content-process">
+                    <a href="#" class="hnys-title td mt">3. Shop with Confidence</a>
+                    <p class="mt-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+        <div class="header-choose">
+            <h6 class="sub-title">Why Choose Us</h6>
+            <h3 class="hny-title">Why Meet Us Online</h3>
+        </div>
+        <div class="container-choose">
+            <div class="row-choose">
+                <span class="fa fa-arrows" aria-hidden="true"></span>
+                <h3 class="feature-titel mt">Comfort of your home</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit. </p>
+                <a href="#read" class="read td">Read more <span class="fa fa-arrow-right ml-1" aria-hidden="true"
+                        style="color: #151b1d;font-size: 13px;line-height: 28px;"></span></a>
+            </div>
+            <div class="row-choose">
+                <span class="fa fa-code" aria-hidden="true"></span>
+                <h3 class="feature-titel mt">Expert designers</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit. </p>
+                <a href="#read" class="read td">Read more <span class="fa fa-arrow-right ml-1" aria-hidden="true"
+                        style="color: #151b1d;font-size: 13px;line-height: 28px;"></span></a>
+            </div>
+            <div class="row-choose">
+                <span class="fa fa-crosshairs" aria-hidden="true"></span>
+                <h3 class="feature-titel mt">Live 3D designs</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit. </p>
+                <a href="#read" class="read td">Read more <span class="fa fa-arrow-right ml-1" aria-hidden="true"
+                        style="color: #151b1d;font-size: 13px;line-height: 28px;"></span></a>
+            </div>
+            <div class="row-choose">
+                <span class="fa fa-ravelry" aria-hidden="true"></span>
+                <h3 class="feature-titel mt">Instant pricing</h3>
+                <p class="feature-text">Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit. </p>
+                <a href="#read" class="read td">Read more <span class="fa fa-arrow-right ml-1" aria-hidden="true"
+                        style="color: #151b1d;font-size: 13px;line-height: 28px;"></span></a>
+            </div>
+        </div>
+    </section>
+    <section class="service">
+        <div class="container-service p1">
+            <div class="image-service" data-aos="fade-right">
+                <img src="./assets/img/g3.jpg" alt="Get">
+            </div>
+            <div class="info-service" data-aos="fade-left">
+                <h6 class="sub-title">what We Do</h6>
+                <h3 class="hny-title">What We Offer for You</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicingelit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <span class="fa fa-check"></span> Full home interiors
+                        </li>
+                        <li>
+                            <span class="fa fa-check"></span> Modular solutions
+                        </li>
+                        <li>
+                            <span class="fa fa-check"></span> Catalogue products
+                        </li>
+                        <li>
+                            <span class="fa fa-check"></span> Installation
+                        </li>
+                        <li>
+                            <span class="fa fa-check"></span> Custom products
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-section banner-view">
+        <div class="container-left">
+            <h3 class="hny-title color mb">Meet our Designer Online</h3>
+            <h4 class="my mb-2"> Start your home interiors journey online, from the comfort of your home</h4>
+            <div class="container-form">
+                <div class="rowform">
+                    <input type="text" placeholder="Name..." class="form">
+                </div>
+                <div class="row-form">
+                    <input type="email" placeholder="Email..." class="form">
+                </div>
+                <div class="row-form">
+                    <button class="btn color bdr" type="submit">Submit</button>
+                </div>
+            </div>
+            <div class="text-form">
+                <p class="info-form">By submitting this form, you agree to the
+                    <a href="" class="text-both"> privacy policy</a> and
+                    <a href="" class="text-both">terms of use</a>
+            </div>
+        </div>
+    </section>
+    <div class="slide-show">
+        <div class="slides">
+            <input type="radio" name="p" id="p1" checked>
+            <input type="radio" name="p" id="p2">
+            <input type="radio" name="p" id="p3">
+            <input type="radio" name="p" id="p4">
+            <section class="clients p1">
+                <h6 class="sub-title text-center">Here’s what they have to say</h6>
+                <h3 class="hny-title text-center">our clients do the talking</h3>
+                <div class="text-clients">
+                    <span class="fa fa-quote-left" aria-hidden="true"></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi. Integer sit amet .Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit.
+                    </p>
+                </div>
+                <div class="avatar text-center">
+                    <img src="./assets/img/c1.jpg" alt="C1">
+                    <div class="name">
+                        <h3>Rohit Paul</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="clients">
+                <h6 class="sub-title text-center">Here’s what they have to say</h6>
+                <h3 class="hny-title text-center">our clients do the talking</h3>
+                <div class="text-clients">
+                    <span class="fa fa-quote-left" aria-hidden="true"></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi. Integer sit amet .Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit.
+                    </p>
+                </div>
+                <div class="avatar text-center">
+                    <img src="./assets/img/c2.jpg" alt="C2">
+                    <div class="name">
+                        <h3>Shveta</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="clients">
+                <h6 class="sub-title text-center">Here’s what they have to say</h6>
+                <h3 class="hny-title text-center">our clients do the talking</h3>
+                <div class="text-clients">
+                    <span class="fa fa-quote-left" aria-hidden="true"></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi. Integer sit amet .Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit.
+                    </p>
+                </div>
+                <div class="avatar text-center">
+                    <img src="./assets/img/c3.jpg" alt="C3">
+                    <div class="name">
+                        <h3>Roy Linderson</h3>
+                    </div>
+                </div>
+            </section>
+            <section class="clients">
+                <h6 class="sub-title text-center">Here’s what they have to say</h6>
+                <h3 class="hny-title text-center">our clients do the talking</h3>
+                <div class="text-clients">
+                    <span class="fa fa-quote-left" aria-hidden="true"></span>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi. Integer sit amet .Lorem ipsum dolor sit amet adipisicing elit. Laborum dolor facere ipsum adipisicingelit.
+                    </p>
+                </div>
+                <div class="avatar text-center">
+                    <img src="./assets/img/c4.jpg" alt="C4">
+                    <div class="name">
+                        <h3>Mike Thyson</h3>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <div class="navigation">
+            <label for="p1" class="bar active"></label>
+            <label for="p2" class="bar"></label>
+            <label for="p3" class="bar"></label>
+            <label for="p4" class="bar"></label>
+        </div>
+    </div>
+    <button onclick="topFunction()" id="movetop">
+        <span class="fa fa-angle-up"></span>
+    </button>
+    <footer class="footer">
+        <div class="container-footer">
+            <div class="col-item">
+                <h6 class="title-footer">About Company</h6>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium voluptate rem ullam dolore nisi voluptatibus esse quasi.Integer sit amet mattis quam.</p>
+                <div class="social-network">
+                    <a href="#facebook" class="facebook"><span class="fa fa-facebook"></span></a>
+                    <a href="#twitter" class="twitter"><span class="fa fa-twitter"></span></a>
+                    <a href="#instagram" class="instagram"><span class="fa fa-instagram"></span></a>
+                    <a href="#linkedin" class="linkedin"><span class="fa fa-linkedin"></span></a>
+                </div>
+            </div>
+            <div class="col-1">
+                <h6 class="title-footer">Useful Links</h6>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li><a href="./pages/services.html">Services</a></li>
+                    <li><a href="./pages/blog.html"> Blog posts</a></li>
+                    <li><a href="./pages/contact.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <h6 class="title-footer">Services</h6>
+                <ul>
+                    <li><a href="#">Furniture Chairs</a></li>
+                    <li><a href="#">Three Seater Sofas</a></li>
+                    <li><a href="#"> Dining Tables</a></li>
+                    <li><a href="#"> Office Chairs</a></li>
+                    <li><a href="#">Kitchen Cabinets</a></li>
+                </ul>
+            </div>
+            <div class="col-item">
+                <h6 class="title-footer">Contact Us</h6>
+                <ul>
+                    <li>
+                        <p><span class="fa fa-map-marker"></span> Livefloor, #49436 block, #888 Honey rd Newyork
+                    </li>
+                    </p>
+                    <li><a href="tel:+7-800-999-800"><span class="fa fa-phone"></span> +(21)-255-999-8888</a></li>
+                    <li><a href="mailto:Livefloor@mail.com" class="mail"><span class="fa fa-envelope-open-o"></span>
+                            Livefloor@mail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <section class="c-right">
+        <div class="content">
+            <p class="copy-right text-center">© 2020 Livefloor. All rights reserved. Design by <a href="https://w3layouts.com/" target="_blank">
+                    W3Layouts</a></p>
+        </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/jquery.waypoints.min.js"></script>
+    <script src="assets/js/counterup.js"></script>
+    <script src="assets/js/slideShow.js"></script>
+    <script src="assets/js/showMenu.js"></script>
+    <script src="assets/js/scrollAddTicky.js"></script>
+    <script src="assets/js/scrollToTop.js"></script>
+    <script src="assets/js/inputAddActive.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('.counter').countUp({
+                duration: 1000,
+            });
+        })
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            delay: 1000,
+        });
+    </script>
+    <script src="assets/js/hamburger.js"></script>
+</body>
+
+</html>
