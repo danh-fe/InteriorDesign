@@ -20,7 +20,7 @@
         <nav class="nav">
             <div class="container-flex">
                 <div class="text-index">
-                    <h1><a href="index.html">Livefloor</a></h1>
+                    <h1><a href="../index.html">Livefloor</a></h1>
                 </div>
                 <ul class="list-nav list-media" id="show-menu">
                     <li><a href="../index.html" class=" nav-link">Home</a></li>
@@ -151,19 +151,19 @@
     <section class="album" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
         <div class="container-image">
             <div class="item-album">
-                <a href="#"><img src="./Img/g1.jpg" alt="" class="image"></a>
+                <a href="#"><img src="../assets/img/g1.jpg" alt="" class="image"></a>
                 <h5>Lorem</h5>
                 <h4><a href="#">5-Year Warranty</a></h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
             </div>
             <div class="item-album">
-                <a href="#"><img src="./Img/g2.jpg" alt="" class="image"></a>
+                <a href="#"><img src="../assets/img/g2.jpg" alt="" class="image"></a>
                 <h5>Lorem</h5>
                 <h4><a href="#">5-Year Warranty</a></h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
             </div>
             <div class="item-album">
-                <a href="#"><img src="./Img/g3.jpg" alt="" class="image"></a>
+                <a href="#"><img src="../assets/img/g3.jpg" alt="" class="image"></a>
                 <h5>Lorem</h5>
                 <h4><a href="#">5-Year Warranty</a></h4>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam esse? dolores impedit doloremque.</p>
@@ -226,16 +226,28 @@
                     W3Layouts</a></p>
         </div>
     </section>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script src="js/counterup.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/scrollToTop.js"></script>
-    <script src="js/scrollAddTicky.js"></script>
-    <script src="js/showMenu.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../assets/js/jquery.waypoints.min.js"></script>
+    <script src="../assets/js/counterup.js"></script>
+    <script src="../assets/js/showMenu.js"></script>
+    <script src="../assets/js/scrollAddTicky.js"></script>
+    <script src="../assets/js/scrollToTop.js"></script>
+    <script src="../assets/js/inputAddActive.js"></script>
     <script>
-        AOS.init();
+        $(document).ready(function() {
+            $('.counter').countUp({
+                duration: 1000,
+            });
+        })
     </script>
-    <script src="js/hamburger.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 300,
+            delay: 1000,
+        });
+    </script>
+    <script src="../assets/js/hamburger.js"></script>
 </body>
 
 </html>
