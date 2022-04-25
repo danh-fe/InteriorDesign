@@ -41,146 +41,182 @@ h3 {
   #movetop {
     right: 49px !important;
   }
+
   .btn {
     display: none !important;
   }
-  .section {
-    width: 100vh !important;
-  }
+
   .section .slider-banner {
     width: 100%;
     height: 400px !important;
   }
+
   .slider-banner-2 {
     width: 100%;
     height: 400px !important;
   }
+
   .slider-banner-3 {
     width: 100%;
     height: 400px !important;
   }
+
   .slider-banner-4 {
     width: 100%;
     height: 400px !important;
   }
+
   .nav-btn {
     display: none;
   }
+
   .about {
     width: 100%;
     padding: 10px;
   }
+
   .container-info-banner {
     width: 100% !important;
     left: 56% !important;
     margin: 0 !important;
     top: 58% !important;
   }
+
   .container-info-banner h5 {
     font-size: 22px !important;
     line-height: 44px !important;
   }
+
   .stausinfo .container-flex {
     margin: 0 !important;
   }
+
   .stausinfo .container-flex .row {
     width: 50% !important;
   }
+
   .about .container {
     display: block !important;
     width: 100% !important;
   }
+
   .about .info-about {
     width: 100% !important;
   }
+
   .about .image {
     margin-top: 20px !important;
     width: 100% !important;
     margin-left: 0 !important;
   }
+
   .about .image img {
     width: 100% !important;
   }
+
   .container-process .row-process {
     width: 100% !important;
     margin-bottom: 15px !important;
   }
+
   .choose .container-choose .row-choose {
     width: 100% !important;
     margin-bottom: 15px !important;
   }
+
   .container-service .image-service {
     width: 100% !important;
   }
+
   .banner-section {
     width: 100% !important;
     height: 50vh;
   }
+
   .container-left {
     width: 375px !important;
     left: 62% !important;
   }
+
   .container-form {
     display: block !important;
   }
+
   .container-form .row-form {
     margin-left: 0 !important;
   }
+
   .row-form .btn {
     display: block !important;
   }
+
   .container-form input {
     width: 75% !important;
     margin-bottom: 15px !important;
   }
+
   .slides {
     width: 100% !important;
     flex-wrap: wrap;
   }
+
   .slide-show .clients {
     width: 100% !important;
   }
+
   .hny-title {
     font-size: 28px !important;
   }
+
   .my {
     width: 90% !important;
     margin: 0 -17px !important;
     margin-bottom: 15px !important;
   }
+
   section .text-form {
     width: 100% !important;
     margin: 0 15px;
   }
+
   .info-form {
     width: 75% !important;
   }
+
   .container-form .bdr {
     width: 75% !important;
   }
+
   .container-process .mt-2 {
     width: 350px !important;
   }
+
   .container-service .info-service {
     width: 100% !important;
     margin: 0 !important;
   }
-  .clients .avatar > img {
+
+  .clients .avatar>img {
     width: 13% !important;
   }
+
   .navigation {
     display: none !important;
   }
+
   .footer .container-footer {
     width: 100% !important;
   }
+
   .container-footer .col-item {
     width: 100% !important;
     margin-bottom: 15px !important;
   }
+
   .col-item p {
     width: 100% !important;
   }
+
   .col-1 {
     width: 100% !important;
     margin-bottom: 15px !important;
@@ -193,119 +229,150 @@ h3 {
   #movetop {
     right: 80px !important;
   }
+
   .btn {
     display: none !important;
   }
+
   .container-info-banner {
     width: 100% !important;
     left: 60% !important;
   }
+
   .container-info-banner h5 {
     font-size: 25px !important;
     line-height: 26px !important;
   }
+
   .info-about .hny-title {
     font-size: 35px !important;
     line-height: 40px;
   }
+
   .stausinfo .container-flex {
     margin: 0 !important;
   }
+
   .stausinfo .container-flex .row {
     width: 36% !important;
   }
+
   .about .info-about {
     width: 100% !important;
   }
+
   .about .image {
     margin-top: 15px !important;
     width: 40% !important;
   }
+
   .container-process .row-process {
     width: 500px !important;
     margin: 15px 0 !important;
   }
+
   /* .about{
         /* max-width: 708px; */
   /* } */
   */ .process {
     margin: 0 40px !important;
   }
+
   .row-form .btn {
     display: block !important;
   }
+
   .nav-btn {
     display: none;
   }
+
   .service {
     max-width: 700px;
     margin: 15px;
     padding: 15px 25px;
   }
+
   .service .container-service {
     margin: 0 !important;
   }
+
   /* .choose{ */
   /* width: 708px; }*/
   .choose .container-choose {
     width: 100% !important;
     margin: 30px 0 !important;
   }
+
   .choose .container-choose .row-choose {
     width: 40% !important;
     margin-top: 20px !important;
   }
+
   .container-service .image-service {
     width: 100% !important;
   }
+
   .container-service .info-service {
     width: 100% !important;
     margin: 0 !important;
   }
+
   .container-left {
     top: 50% !important;
     left: 53% !important;
   }
+
   .banner-section {
     /* max-width:708px; */
     height: 500px !important;
   }
+
   .clients .text-clients {
     margin: 20px 0 !important;
   }
+
   .info-form {
     font-size: 15px;
     color: #fff;
   }
+
   .section .slider-banner {
     height: 400px !important;
   }
+
   .slider-banner-2 {
     width: 768px;
     height: 400px !important;
   }
+
   .slider-banner-3 {
     width: 768px;
     height: 400px !important;
   }
+
   .slider-banner-4 {
     width: 768px;
     height: 400px !important;
   }
-  .clients .avatar > img {
+
+  .clients .avatar>img {
     width: 15% !important;
   }
+
   .navigation {
     left: 50% !important;
   }
+
   .footer .container-footer {
     width: 100% !important;
     display: flex !important;
   }
+
   .container-footer .col-item {
     width: 100% !important;
     margin: 0 !important;
   }
+
   .col-1 {
     width: 40% !important;
     margin-top: 20px !important;
@@ -338,7 +405,7 @@ h3 {
   transition: 0.8s;
 }
 
-li > .dropdown {
+li>.dropdown {
   position: absolute;
   top: 50%;
   background-color: #fff;
@@ -354,7 +421,7 @@ li > .dropdown {
   display: block;
 }
 
-li > .dropdown li {
+li>.dropdown li {
   display: block;
   margin-top: 30px;
 }
@@ -726,7 +793,7 @@ li > .dropdown li {
   list-style-type: none;
 }
 
-.container-service ul > li span.fa {
+.container-service ul>li span.fa {
   color: #ff9f1c;
   margin-right: 12px;
   background: rgba(147, 107, 232, 0.05);
@@ -850,12 +917,12 @@ section .text-both {
   line-height: 28px;
 }
 
-.clients .avatar > img {
+.clients .avatar>img {
   width: 5%;
   border-radius: 50%;
 }
 
-.avatar > .name > h3 {
+.avatar>.name>h3 {
   margin-top: 15px;
   font-weight: 500;
   font-size: 18px;
@@ -892,19 +959,19 @@ input[name="p"] {
   visibility: hidden;
 }
 
-#p1:checked ~ .p1 {
+#p1:checked~.p1 {
   margin-left: 0;
 }
 
-#p2:checked ~ .p1 {
+#p2:checked~.p1 {
   margin-left: -20%;
 }
 
-#p3:checked ~ .p1 {
+#p3:checked~.p1 {
   margin-left: -40%;
 }
 
-#p4:checked ~ .p1 {
+#p4:checked~.p1 {
   margin-left: -60%;
 }
 

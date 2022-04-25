@@ -22,7 +22,7 @@
   margin-top: -10px;
 }
 
-.sticky h1 > a {
+.sticky h1>a {
   color: #ff9f1c;
 }
 
@@ -51,7 +51,7 @@
   align-items: center;
 }
 
-.nav .container-flex h1 > a {
+.nav .container-flex h1>a {
   margin: 0 20px;
   font-size: 34px;
   font-weight: 700;
@@ -74,7 +74,7 @@
   position: relative;
 }
 
-.nav ul li > a:before {
+.nav ul li>a:before {
   position: absolute;
   content: "";
   background: #ff9f1c;
@@ -87,7 +87,7 @@
   color: #ff9f1c;
 }
 
-.nav ul li > a:hover::before {
+.nav ul li>a:hover::before {
   width: 100%;
   transition: all 0.5s;
 }
@@ -102,7 +102,7 @@
   flex-grow: 1;
 }
 
-.nav .text-right .btn-free > a {
+.nav .text-right .btn-free>a {
   color: #fff;
 }
 
@@ -110,33 +110,45 @@
   .menu {
     display: block !important;
   }
+
+  .btn-free {
+    display: none;
+  }
+
   ul .list-nav {
     position: absolute;
     top: 20px;
     left: 30px;
   }
-  .text-index h1 > a {
+
+  .text-index h1>a {
     font-size: 25px;
   }
+
   .nav {
-    width: 100%;
-    justify-content: space-around;
+    padding: 0 10px;
+    margin: 0;
   }
+
   .nav .container-flex {
     flex-grow: 1;
   }
+
   .menu {
     width: 30%;
     margin-left: 10px;
     display: block !important;
   }
+
   #show-menu {
     display: none;
   }
+
   .text-right {
     position: absolute;
     left: 260px;
   }
+
   .list-media {
     position: absolute;
     width: 100%;
@@ -144,10 +156,12 @@
     top: 50px;
     background: #fff;
   }
+
   .list-nav {
     display: flex;
     flex-direction: column;
   }
+
   .nav ul li {
     margin: 15px 0;
     display: block !important;
@@ -156,17 +170,21 @@
 }
 
 @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+
   /* Header */
   .nav ul li {
     margin: 15px 0;
     display: block !important;
   }
+
   .menu {
     display: block !important;
   }
+
   #show-menu {
     display: none;
   }
+
   .list-nav {
     min-width: 847px;
     position: absolute;
